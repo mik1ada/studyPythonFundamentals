@@ -1,0 +1,45 @@
+Zadanie: Zarządzanie Domową Spiżarnią
+
+Kontekst:
+Wyobraź sobie, że chcesz stworzyć prosty program w Pythonie do zarządzania zapasami w Twojej domowej spiżarni. Chcemy śledzić, jakie produkty posiadamy i w jakiej ilości (np. ile mamy sztuk lub kilogramów danego produktu).
+Idealną strukturą do tego zadania jest słownik, w którym:
+Kluczem (key) będzie nazwa produktu (typu str).
+Wartością (value) będzie ilość tego produktu (typu int).
+Twoje zadania (krok po kroku):
+
+Krok 1: Utworzenie początkowego stanu spiżarni
+
+Zdefiniuj słownik o nazwie spizarnia, który będzie reprezentował początkowy stan Twoich zapasów. Powinien on zawierać:
+"Mąka" (kg): 2
+"Cukier" (kg): 1
+"Mleko" (szt): 3
+"Chleb" (szt): 1
+Wypisz (użyj print()) zawartość spiżarni na ekranie.
+
+Krok 2: Powrót z zakupów (Aktualizacja i dodawanie)
+
+Właśnie wróciłeś ze sklepu. Musimy zaktualizować stan spiżarni:Kupiłeś 2 dodatkowe "Mleka". Zaktualizuj wartość dla klucza "Mleko".Kupiłeś nowy produkt: "Jajka" (szt) w ilości 10. Dodaj nową parę klucz-wartość do słownika.
+Wypisz stan spiżarni po zakupach.
+
+Krok 3: Sprawdzanie dostępności (Operator in)
+
+Zanim zaczniesz robić ciasto, chcesz sprawdzić, czy na pewno masz "Mąkę".
+Napisz instrukcję if, która sprawdzi, czy klucz "Mąka" znajduje się (in) w słowniku spizarnia. Jeśli tak, wypisz komunikat "Można robić ciasto!".
+
+Krok 4: Bezpieczne sprawdzanie (Metoda .get())
+
+Chcesz sprawdzić, ile masz "Soli". "Sól" może jednak nie znajdować się w spiżarni.
+Użyj metody .get(), aby pobrać ilość "Soli". Jeśli produkt nie istnieje, metoda powinna zwrócić wartość domyślną 0. Zapisz wynik do zmiennej i go wypisz.
+
+Krok 5: Zużycie produktu (Metoda .pop())
+
+Zużyłeś cały "Chleb" na kolację.
+Użyj metody .pop() (lub instrukcji del), aby całkowicie usunąć wpis "Chleb" ze słownika spizarnia.
+Wskazówka (dla .pop()): Metoda ta zwraca wartość usuniętego klucza. Możesz ją przechwycić i wypisać, np. "Zużyto X sztuk chleba."
+Wypisz stan spiżarni po usunięciu chleba.
+
+Krok 6: Wielka inwentaryzacja (Iteracja .items())
+
+Na koniec dnia chcesz zrobić pełen raport stanu spiżarni.
+Napisz pętlę for, która przejdzie przez wszystkie elementy spiżarni, używając metody .items().
+Dla każdego produktu wypisz komunikat w formacie: Produkt: [NAZWA], Ilość: [ILOŚĆ]

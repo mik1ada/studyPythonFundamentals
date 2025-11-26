@@ -1,0 +1,29 @@
+Zadanie 11
+Skopiuj zawartość pliku tekst.txt do tekst_kopia.txt.
+
+Zadanie 12
+Policz liczbę słów w pliku tekst.txt.
+
+Zadanie 13
+Usuń puste linie z pliku i zapisz wynik do dane_bez_pustych.txt.
+
+Zadanie 14
+Wczytaj dane z pliku CSV produkty.csv i wypisz produkty droższe niż 4.0.
+
+Zadanie 15
+Zapisz kwadraty liczb od 1 do 20 w pliku kwadraty.txt.
+
+Zadanie 16
+Napisz funkcję wczytującą dane z pliku config.txt.
+
+Zadanie 17
+Połącz zawartość plików plik1.txt i plik2.txt w plik polaczony.txt.
+
+Zadanie 18
+Napisz funkcję bezpiecznie odczytującą plik z obsługą błędów.
+
+Zadanie 19
+Dopisz do pliku notatki.txt linię z numeracją: N: tekst.
+
+Zadanie 20
+Wczytaj oceny z pliku oceny.txt, policz średnią i wypisz osoby z oceną < 3.

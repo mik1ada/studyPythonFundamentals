@@ -1,0 +1,31 @@
+Zadanie 1
+Utwórz plik powitanie.txt i zapisz w nim tekst: „Witaj w świecie
+Pythona!”.
+
+Zadanie 2
+Odczytaj i wyświetl zawartość pliku powitanie.txt.
+
+Zadanie 3
+Dopisz do pliku powitanie.txt drugą linię tekstu.
+
+Zadanie 4
+Zapisz listę imion ["Ala", "Ola", "Jan"] do pliku, każde w osobnej
+linii.
+
+Zadanie 5
+Policz liczbę linii w pliku imiona.txt.
+
+Zadanie 6
+Odczytaj liczby z pliku liczby.txt i oblicz ich sumę.
+
+Zadanie 7
+Poproś użytkownika o 3 ulubione filmy i zapisz je do pliku filmy.txt.
+
+Zadanie 8
+Napisz funkcję dopisującą logi do pliku log.txt.
+
+Zadanie 9
+Wypisz linie z pliku log.txt zawierające słowo „Użytkownik”.
+
+Zadanie 10
+Odczytaj plik tekst.txt, zamień litery na wielkie i nadpisz plik.

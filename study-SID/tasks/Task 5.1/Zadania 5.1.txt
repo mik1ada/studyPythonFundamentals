@@ -1,0 +1,16 @@
+Zadanie 1
+Utwórz listę 5 imion. Wypisz na ekran pierwsze imię, ostatnie imię oraz długość listy.
+
+Zadanie 2
+Masz listę liczb: [3, 7, 2, 10, 5].
+Oblicz sumę wszystkich elementów bez używania funkcji sum().
+
+Zadanie 3
+Masz listę liczb: [1, 2, 3, 4, 5, 6, 7, 8, 9].
+Utwórz nową listę, która będzie zawierać tylko liczby parzyste z tej listy.
+
+Zadanie 4
+Poproś użytkownika o podanie 5 liczb, zapisz je w liście, a następnie oblicz i wyświetl ich średnią.
+
+Zadanie 5
+Napisz funkcję maksimum(lista_liczb), która zwróci największą liczbę z przekazanej listy (nie używaj funkcji max()).

@@ -1,0 +1,54 @@
+1. Napisać program, który wczytuje od użytkownika ciąg znaków, a następnie wy-
+świetla informację o tym ile razy w tym ciągu powtarza się jego ostatni znak.
+
+Przykład, dla ciągu „Abrakadabra” program powinien wyświetlić 4, ponieważ
+ostatnim znakiem jest literka „a”, która występuje w podanym ciągu łącznie 4
+razy.
+W celu treningu warto wykonać zadanie z zastosowaniem metody string.count()
+oraz bez tej metody. .
+
+2. Napisać program, który wczytuje od użytkownika ciąg znaków, a następnie spraw-
+dza, czy podany ciąg jest palindromem.
+
+3. Napisać program, który sumuje cyfry w tekście podanym przez użytkownika.
+Przykład:
+"Ala ma 1 psa i 2 koty. Jola ma 10 rybek i 2 papugi."
+Wynik:
+6
+
+4. Napisz program, który umożliwia szyfrowanie podanego ciągu znaków przy uży-
+ciu szyfru Cezara, który jest szczególnym przypadkiem szyfru podstawieniowego
+
+monoalfabetycznego.
+
+Użytkownik program podaje tekst do zaszyfrowania oraz liczbę n, o którą prze-
+sunięty jest alfabet za pomocą którego szyfrujemy tekst. Dla uproszczenia można
+
+przyjąć, że łańcuch wejściowy składa się tylko z małych liter alfabetu angielskiego,
+tj. ’a’ – ’z’ (26 znaków) oraz spacji.
+Przykład 1.
+Podaj łańcuch znaków do zaszyfrowania: abrakadabraz
+Podaj przesunięcie: 2
+Zaszyfrowany tekst: cdtcmcfcdtcb
+Przykład 2.
+
+7
+
+Podaj łańcuch znaków do zaszyfrowania: cdtcmcfcdtcb
+Podaj przesunięcie: -2
+Zaszyfrowany tekst: abrakadabraz
+5. Zdefiniować funkcję strToInt(str) , która zamienia liczbę całkowitą zapisaną
+w postaci łańcucha na liczbę całkowitą typu int. Z tym, że w podanym łańcuchu
+znaków mogą pojawiać się nie tylko cyfry – co nie powinno spowodować błędu, a
+jedynie przerwanie dalszego działania.
+Funkcja powinna przerywać konwersję w momencie napotkania pierwszego znaku
+nie należącego do zapisu liczby, zatem np. dla strToInt("-13krowa") wynikiem
+powinno być -13.
+Pozostałe przykłady:
+strToInt("+12") - wynik 12
+strToInt("0001") - wynik 1
+strToInt("991-234-23") - wynik 991
+strToInt("+zonk") - wynik 0
+strToInt("") - wynik 0
+strToInt("-12e5") - wynik -12*10^5 = -120000
+strToInt("-12e-5") - wynik -12, tylko dodatnie wykładniki są rozpatrywane

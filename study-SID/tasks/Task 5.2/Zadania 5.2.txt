@@ -1,0 +1,75 @@
+🧩 Zadanie 1 – Lista i średnia z ocen
+Masz listę ocen ucznia: oceny = [3, 4, 5, 2, 5].
+Oblicz średnią ocen i wypisz komunikat zależny od jej wartości:
+
+średnia < 3.0 → „Uczeń ma słabe wyniki”
+3.0 ≤ średnia < 4.5 → „Uczeń ma dobre wyniki”
+średnia ≥ 4.5 → „Uczeń ma bardzo dobre wyniki”
+
+🧩 Zadanie 2 – Słownik i odczyt danych
+Utwórz słownik opisujący książkę z kluczami: "tytul", "autor", "liczba_stron".
+Wypisz dane w formacie:
+„Tytuł: ..., Autor: ..., Liczba stron: ...”
+
+🧩 Zadanie 3 – Słownik i instrukcja warunkowa
+Masz słownik:
+uzytkownik = {
+    "login": "admin",
+    "haslo": "tajne",
+    "aktywny": True
+}
+
+Na podstawie wartości "aktywny" wypisz komunikat:
+„Użytkownik jest aktywny”
+lub „Użytkownik jest zablokowany”.
+
+🧩 Zadanie 4 – Funkcja licząca pole koła
+Napisz funkcję pole_kola(r) liczącą pole koła ze wzoru π * r² (przyjmij π = 3.14).
+Wywołaj funkcję dla r = 5 i wypisz wynik.
+
+🧩 Zadanie 5 – Liczenie liter w tekście
+Poproś użytkownika o podanie tekstu.
+Policz, ile razy w podanym tekście występuje litera 'e'.
+
+🧩 Zadanie 6 – Analiza listy liczb
+Dla listy [3, -1, 0, 5, -2, 10] policz:
+liczb dodatnich
+liczb ujemnych
+zer
+Wypisz te wartości.
+
+🧩 Zadanie 7 – Cena z VAT (funkcja + słownik)
+Masz słownik produktu:
+{
+    "nazwa": "Monitor",
+    "cena_netto": 1000.0,
+    "vat": 0.23
+}
+
+Napisz funkcję, która obliczy i zwróci cenę brutto produktu.
+Wypisz komunikat:
+„Produkt: ..., cena brutto: ...”
+
+🧩 Zadanie 8 – Odwracanie napisu
+Poproś użytkownika o podanie napisu.
+Wypisz ten napis od końca (np. „Python” → „nohtyP”).
+Użyj pętli, nie gotowego [::-1].
+
+🧩 Zadanie 9 – FizzBuzz
+Dla liczb od 1 do 20:
+wypisz „Fizz”, jeśli liczba jest podzielna przez 3
+wypisz „Buzz”, jeśli podzielna przez 5
+wypisz „FizzBuzz”, jeśli podzielna przez 3 i 5
+w przeciwnym razie wypisz samą liczbę
+
+🧩 Zadanie 10 – Lista słowników (uczniowie)
+Masz listę uczniów:
+
+[
+    {"imie": "Ala", "wiek": 15},
+    {"imie": "Bartek", "wiek": 17},
+    {"imie": "Ola", "wiek": 16},
+    {"imie": "Jan", "wiek": 18}
+]
+
+Wypisz imiona uczniów, którzy mają co najmniej 17 lat.

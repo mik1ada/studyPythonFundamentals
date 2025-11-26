@@ -1,0 +1,7 @@
+# Obliczanie pola powierzchni koła
+
+# Napisz funkcję, która oblicza pole powierzchni koła na podstawie podanego promienia.
+# Funkcja powinna przyjmować jeden argument (promień) i zwracać pole powierzchni koła.
+# Zrób to w pętli dla minimum 3 różnych promieni i dodaj do wyjściowej listy tylko
+# elementy, których pole jest większe od 10
+# Wyświetl wartości w poszczególnych krokach
