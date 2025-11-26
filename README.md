@@ -10,6 +10,8 @@ It serves as a place to track academic progress, organize coursework, and store 
 
 studySID/
 ├── tasks/ # Programming tasks completed during classes
+│ ├── *.txt # Task descriptions provided by the instructor
+│ └── *.py # My implementations and solutions to the tasks
 └── exams/ # Tests, quizzes, and exam-related assignments
 
 ---
