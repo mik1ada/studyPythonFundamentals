@@ -1,0 +1,39 @@
+Zadanie 1 
+    Poproś użytkownika o dwie liczby i wykonaj dzielenie. Obsłuż
+ZeroDivisionError. 
+
+Zadanie 2 
+    Poproś użytkownika o liczbę. Obsłuż sytuację, gdy poda tekst nieliczbowy
+(ValueError). 
+
+Zadanie 3 
+    Poproś użytkownika o nazwę pliku i spróbuj go otworzyć. Obsłuż
+FileNotFoundError. 
+
+Zadanie 4 
+    Utwórz listę 5 elementów i poproś o podanie indeksu. Obsłuż IndexError i
+ValueError. 
+
+Zadanie 5 
+   Poproś użytkownika o 2 liczby i wykonaj dzielenie. Obsłuż ValueError i
+ZeroDivisionError. 
+
+Zadanie 6 
+    Poproś użytkownika o liczbę i oblicz jej kwadrat. W jednej klauzuli
+obsłuż ValueError i TypeError. 
+
+Zadanie 7 
+    Napisz funkcję sprawdzającą wiek. Jeśli wiek < 0, rzuć ValueError.
+Obsłuż wyjątek. 
+
+Zadanie 8 
+   Wykonaj dzielenie liczb i użyj bloku finally, który zawsze wyświetla
+komunikat. 
+
+Zadanie 9 
+     Odczytaj z pliku liczbę i zamień na int. Obsłuż FileNotFoundError oraz
+ValueError. 
+
+Zadanie 10 
+    Poproś użytkownika o hasło. Jeśli jest za krótkie, rzuć wyjątek
+Exception. 
