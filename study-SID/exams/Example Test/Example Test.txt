@@ -1,0 +1,11 @@
+1. Napisz funkcję w Pythonie, która tworzy kwadratową macierz N x N, wypełniając jej przekątne dowolnym napisem, a pozostałe elementy kwadratem sumy indeksów. Użytkownik podaje wymiar macierzy. Na koniec wyświetlamy całą macierz.
+
+2. Napisz funkcję, która sprawdza, czy hasło jest wystarczająco silne. Hasło jest silne, jeśli ma, co najmniej 8 znaków. Użytkownik w pierwszym kroku podaje hasło, następnie musi je powtórzyć, jeżeli są zgodne dostaje informacje, że został zalogowany, w przeciwnym wypadku musi podać ponownie nowe hasło.
+
+3. Napisz funkcję, która przechowuje w słowniku informacje o możliwych ocenach, a następnie pobierz od użytkownika 3 wartości i z zastosowaniem słownika zapisz ją w liście. Na koniec wyświetl listę, oraz oblicz i wyświetl najwyższą ocenę.
+
+4. Napisz funkcję w Pythonie, która przyjmuje listę liczb całkowitych i zwraca sumę wszystkich liczb nieparzystych w tej liście, oraz najmniejszą i największą liczbę parzystą.
+
+5. Napisz funkcję, która sprawdza, czy podane słowo jest palindromem. Palindrom to słowo, które brzmi tak samo czytane od przodu i od tyłu, na przykład "kajak" czy "radar.
+
+6. Napisz program z zastosowaniem dowolnych instrukcji (bez powtórzeń) realizujący dowolne zadanie na 20 linii.
