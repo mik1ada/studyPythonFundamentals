@@ -1,0 +1,61 @@
+## 🔹 Zadanie 2 – Tabliczka
+mnożenia jako macierz  
+Napisz funkcję, która dla liczby `n` tworzy macierz `n × n`,
+gdzie element `(i, j)` równy jest `i * j`.
+
+## 🔹 Zadanie 3 – Rozbudowana
+kontrola hasła  
+Napisz funkcję sprawdzającą, czy hasło:  
+1) ma co najmniej 8 znaków,  
+2) zawiera cyfrę,  
+3) zawiera wielką literę.  
+
+Program ma wypisać, czego brakuje, jeśli hasło nie spełnia
+warunków.
+
+## 🔹 Zadanie 5 – Przetwarzanie ocen uczniów  
+Masz listę krotek `(imie, ocena)`.  
+Napisz funkcję, która:  
+1) tworzy słownik `{imie: ocena}`,  
+2) oblicza średnią ocen,  
+3) zwraca imię ucznia z najwyższą oceną.
+
+
+## 🔹 Zadanie 6 – Usuwanie
+duplikatów  
+Napisz funkcję, która z listy usuwa duplikaty, zachowując
+kolejność pierwszych wystąpień.
+
+## 🔹 Zadanie 7 – Wprowadzanie liczb aż do 'q'  
+Utwórz program, który pobiera liczby od użytkownika aż
+wpisze `q`.  
+Na końcu wypisz: listę liczb, ich sumę, średnią, minimum i
+maksimum.
+
+
+## 🔹 Zadanie 10 – Proste menu tekstowe  
+Stwórz program z menu:  
+1 – dodaj słowo do listy  
+2 – wyświetl listę  
+3 – zakończ  
+
+Program działa w pętli aż użytkownik wybierze opcję 3.
+
+## 🔹 Zadanie 20 – 20 Instrukcji
+Stwórz program wykorzystujący 20 różnych instrukcji języka
+python
+
+## Zadanie 1 GenAI
+Napisz program w Pythonie, który:
+Poprosi użytkownika o podanie:
+imienia,
+wieku (liczba całkowita).
+Zapisze te dane do pliku dane_uzytkownika.txt w formacie:
+Imię: ...
+Wiek: ...
+
+Następnie odczyta zawartość pliku dane_uzytkownika.txt i wyświetli ją na ekranie.
+
+Program ma obsługiwać dwa wyjątki:
+ValueError – gdy użytkownik poda niepoprawny wiek (nie liczbę),
+FileNotFoundError – gdy plik nie istnieje podczas próby odczytu.
