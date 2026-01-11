@@ -1,0 +1,16 @@
+Zadanie 
+
+Masz listę liczb:
+liczby = [12, 7, 5, 18, 9]
+
+
+Sprawdź, czy w liście znajduje się przynajmniej jedna liczba, która:
+- jest ujemna
+LUB
+- jest większa od 15
+
+Jeśli tak, wypisz:
+„Lista zawiera liczbę spełniającą warunek”
+
+W przeciwnym razie wypisz:
+„Brak liczb spełniających warunek”.

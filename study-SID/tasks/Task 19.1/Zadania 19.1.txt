@@ -1,0 +1,100 @@
+Zadanie 1 – Klasa i obiekty
+Napisz klasę Student, która posiada pola:
+- imie
+- wiek
+
+Dodaj metodę przedstaw_sie(), która zwraca tekst:
+„Cześć, jestem … i mam … lat”.
+
+Utwórz dwóch obiektów klasy Student i wywołaj metodę dla każdego z nich.
+
+--------------------------------------------------
+
+Zadanie 2 – Metody obliczeniowe
+Napisz klasę Prostokat z polami:
+- a
+- b
+
+Dodaj metody:
+- pole() – obliczającą pole prostokąta
+- obwod() – obliczającą obwód prostokąta
+
+Utwórz co najmniej dwa obiekty klasy i przetestuj metody.
+
+--------------------------------------------------
+
+Zadanie 3 – Pola prywatne
+Napisz klasę KontoBankowe z prywatnym polem _saldo.
+Dodaj metody:
+- wplata(kwota)
+- wyplata(kwota) – wypłata możliwa tylko, gdy saldo jest wystarczające
+- saldo() – zwracającą aktualny stan konta.
+
+--------------------------------------------------
+
+Zadanie 4 – Metoda __str__
+Napisz klasę Punkt z polami x i y.
+Przeciąż metodę __str__, aby obiekt był wypisywany w formacie:
+(x, y)
+
+Utwórz dwa obiekty i wypisz je na ekran.
+
+--------------------------------------------------
+
+Zadanie 5 – Dziedziczenie (podstawy)
+Napisz klasę bazową Zwierze z metodą glos(), która zwraca "???".
+Następnie utwórz klasy:
+- Pies – zwracającą "Hau"
+- Kot – zwracającą "Miau"
+
+Utwórz listę różnych zwierząt i wypisz ich głosy.
+
+--------------------------------------------------
+
+Zadanie 6 – Dziedziczenie i super()
+Napisz klasę Osoba z polami:
+- imie
+- nazwisko
+
+Napisz klasę Pracownik, dziedziczącą po Osoba, z dodatkowym polem pensja.
+Przeciąż metodę __str__, używając super() do wyświetlenia danych osoby.
+
+--------------------------------------------------
+
+Zadanie 7 – Agregacja obiektów
+Napisz klasę Silnik z polem moc.
+Napisz klasę Samochod z polami:
+- marka
+- silnik (obiekt klasy Silnik)
+
+Dodaj metodę opis(), która zwraca opis samochodu wraz z mocą silnika.
+
+--------------------------------------------------
+
+Zadanie 8 – Klasa zawierająca listę obiektów
+Napisz klasę Druzyna, która przechowuje listę obiektów klasy Student.
+Dodaj metody:
+- dodaj(studenta)
+- wypisz() – wypisującą wszystkich studentów w drużynie.
+
+--------------------------------------------------
+
+Zadanie 9 – Polimorfizm
+Napisz klasę bazową Figura z metodą pole().
+Następnie utwórz klasy dziedziczące:
+- Kolo (promień)
+- Prostokat (boki)
+
+Każda klasa powinna nadpisywać metodę pole().
+Napisz funkcję, która przyjmuje listę obiektów typu Figura i zwraca sumę pól wszystkich figur.
+
+--------------------------------------------------
+
+Zadanie 10 – Mini system zamówień
+Zaimplementuj klasy:
+- ElementZamowienia – przechowującą nazwę produktu, cenę oraz liczbę sztuk
+- Zamowienie – przechowującą listę elementów zamówienia
+
+Zasady:
+- jeśli liczba sztuk produktu ≥ 5, naliczany jest rabat 10%
+- Zamowienie ma umożliwiać dodawanie elementów, obliczanie całkowitego kosztu oraz wypisywanie podsumowania zamówienia

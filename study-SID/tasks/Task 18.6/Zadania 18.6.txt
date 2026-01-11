@@ -1,0 +1,114 @@
+Zadanie 1 
+Napisać klasę Wektor reprezentującą wektor na płaszczyźnie kartezjańskiej. Klasa
+ta powinna mieć dwie składowe „prywatne” – wspołrzędne (x, y) oraz następujące
+metody publiczne:
+
+ konstruktor z parametrami umożliwiającymi ustalenie wartości współrzęd-
+nych wektora x i y;
+
+ wartości domyślne do konstruktora pozwalające na stworzenie wektora zero-
+wego;
+
+ metodę dlugosc(self) , której wynikiem ma być długość wektora;
+ metodę normalizuj(self) , której wynikiem powinien być nowy wektor
+równy znormalizowanemu bieżącemu wektorowi;
+ metodę wyswietl(self) , której wynikiem powinien być łańcuch opisujący
+wektor oraz jego długość, np. ”Wektor [1.5, 0] o długości 1.5”.
+Przeciążyć:
+ operator dodawania add (self, w) , którego wynikiem ma być nowy
+wektor będący sumą bieżącego i podanego wektora;
+ operator odejmowania sub (self, w) , którego wynikiem ma być nowy
+wektor będący różnicą bieżącego i podanego wektora;
+ analogicznie (tym razem modyfikując self ) operatory += oraz -= , czyli
+odpowiednio iadd oraz isub ;
+ wbudowaną funkcję str() , czyli str(self) , aby wynikiem był łańcuch
+opisujący wektor, np. ”[1.2, -3]”;
+ operator mnożenia mul (self,a) , której wynikiem ma być nowy wektor
+będący wynikiem przemnożenia bieżącego wektora przez podany skalar a ;
+ analogicznie rmul (self,a) , dla wywołania a*wektor .
+Przykład zastosowania klasy Wektor:
+w1 = Wektor(2,4)
+w2 = Wektor(1.5)
+print("Wektor w1:", w1, "wektor w2:", w2)
+print("Dł. w1 =", w1.dlugosc(), "dł. w2 =", w2.dlugosc())
+print("w1+w2 =", w1+w2)
+print("w1-w2 =", w1-w2)
+print("w1*2 =", w1*2)
+print("-3*w2 =", -3*w2)
+print("w1*2-w2 =", w1*2-w2)
+print("w1 po normalizacji =", w1.normalizuj())
+print("w2 po normalizacji =", w2.normalizuj())
+w1.wyswietl()
+w2.wyswietl()
+Wynik działania przykładowego programu:
+Wektor w1: [2.00, 4.00] wektor w2: [1.50, 0.00]
+Dł. w1 = 4.47213595499958 dł. w2 = 1.5
+w1+w2 = [3.50, 4.00]
+w1-w2 = [0.50, 4.00]
+w1*2 = [4.00, 8.00]
+-3*w2 = [-4.50, 0.00]
+w1*2-w2 = [2.50, 8.00]
+w1 po normalizacji = [0.45, 0.89]
+w2 po normalizacji = [1.00, 0.00]
+Wektor [2.00, 4.00] o długości 4.47213595499958
+Wektor [1.50, 0.00] o długości 1.5
+
+Zadanie 2
+
+Napisać program do obsługi zamówień. W tym celu należy zaimplementować klasy
+ElementZamowienia oraz Zamowienie.
+Klasa ElementZamowienia reprezentuje pojedynczą pozycję zamówienia i zawiera
+prywatne pola:
+ nazwa ,
+ cena ,
+ liczbaSztuk .
+Dodatkowo klasa ta powinna składać się z:
+
+ konstruktora z parametrami umożliwiającymi przypisanie wartości począt-
+kowych polom klasy;
+
+ przeciążonej wbudowanej funkcji str() , aby wynikiem był łańcuch znaków
+opisujący element zamówienia, np. ”Chleb 4.00 zł, 2 szt., łącznie 8.00 zł”;
+
+ metody obliczKoszt (bez dodatkowych parametrów), służącej do zwraca-
+nia łącznego kosztu danej pozycji zamówienia z uwzględnieniem rabatu;
+
+ metody obliczRabat (bez dodatkowych parametrów), służącej do wyzna-
+czania rabatu dla klienta, według zasad: jeżeli klient zamówił co najmniej 5
+
+sztuk tego towaru to rabat wynosi 10%, w przeciwnym razie 0%.
+Klasa Zamowienie zawiera listę zamówień i następujące pola prywatne:
+ elementy – lista z elementami zamówienia (typu ElementZamowienia ),
+ rozmiar – aktualna liczba elementów w zamówieniu,
+ maksRozmiar – maks. liczba elementów w zamówieniu.
+Dodatkowo klasa ta powinna składać się z:
+ konstruktora z jednym parametrem określającym maks. liczbę elementów
+zamówienia;
+
+ metody dodaj(self, elZam) służącej do dodania nowego elementu zamó-
+wienia do zamówienia. Metoda zwraca True , jeśli udało się dodać element.
+
+W przypadku przekroczenie wielkości zamówienia zwraca False i dodając
+nic do zamówienial;
+
+ metody obliczKoszt(self) służącej do obliczenia całkowitego koszt za-
+mówienia (zwraca tę wartość);
+
+ metody pisz(self) służącej do wypisywania na ekranie informacji o za-
+mówieniu tj. listy pozycji, łączny koszt oraz naliczony rabat.
+
+Przykład zastosowania klas:
+z = Zamowienie(10)
+z.dodaj(ElementZamowienia("Chleb", 4.0, 2))
+z.dodaj(ElementZamowienia("Mleko", 2.5, 1))
+z.dodaj(ElementZamowienia("Cukier", 4.0, 5))
+z.dodaj(ElementZamowienia("Puszka", 9.0, 1))
+z.pisz()
+Przykładowy wydruk:
+Zamowienie:
+1. Chleb 4.00 zł, 2 szt., łącznie 8.00 zł
+2. Mleko 2.50 zł, 1 szt., łącznie 2.50 zł
+3. Cukier 4.00 zł, 5 szt., łącznie 18.00 zł
+4. Puszka 9.00 zł, 1 szt., łącznie 9.00 zł
+Koszt całkowity: 37.5 zł
+Naliczony rabat: 2 zł
