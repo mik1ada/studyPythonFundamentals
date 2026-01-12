@@ -1,0 +1,77 @@
+Zadanie 1 (Dates)
+Użytkownik podaje datę urodzenia w formacie YYYY-MM-DD.
+Napisz program, który obliczy, ile dni minęło od tej daty do dnia dzisiejszego.
+Uwzględnij obsługę błędnego formatu daty.
+
+--------------------------------------------------
+
+Zadanie 2 (Dates)
+Użytkownik podaje liczbę dni n.
+Wypisz:
+- datę dzisiejszą,
+- datę sprzed n dni,
+- datę za n dni.
+
+==================================================
+MATH – OBLICZENIA MATEMATYCZNE
+==================================================
+
+Zadanie 3 (math)
+Wczytaj od użytkownika promień koła r.
+Oblicz i wypisz:
+- pole koła,
+- obwód koła.
+Skorzystaj ze stałej pi z modułu math.
+
+--------------------------------------------------
+
+Zadanie 4 (math)
+Wczytaj od użytkownika liczbę x.
+Jeżeli x jest mniejsze od 0, wypisz komunikat o błędzie.
+W przeciwnym razie oblicz i wypisz pierwiastek kwadratowy z x.
+
+==================================================
+JSON – ZAPIS I ODCZYT DANYCH
+==================================================
+
+Zadanie 5 (json)
+Pobierz od użytkownika imię oraz wiek.
+Zapisz te dane do pliku JSON o nazwie profil.json.
+
+--------------------------------------------------
+
+Zadanie 6 (json)
+Wczytaj dane z pliku profil.json.
+Wypisz komunikat w formacie:
+„Użytkownik <imię> ma <wiek> lat”.
+Obsłuż sytuację braku pliku oraz błędnego formatu JSON.
+
+==================================================
+REGEX – WYRAŻENIA REGULARNE
+==================================================
+
+Zadanie 7 (regex)
+Sprawdź, czy podany przez użytkownika kod pocztowy ma poprawny format DD-DDD
+(np. 30-059).
+Wypisz komunikat „OK” lub „BŁĄD”.
+
+--------------------------------------------------
+
+Zadanie 8 (regex)
+Użytkownik podaje zdanie.
+Wyszukaj i wypisz wszystkie liczby całkowite występujące w tym zdaniu.
+
+==================================================
+ITERATORS – ITERATORY
+==================================================
+
+Zadanie 9 (iterators)
+Masz listę imion.
+Utwórz iterator i wypisz wszystkie elementy listy, korzystając wyłącznie z funkcji next().
+Obsłuż zakończenie iteratora.
+
+--------------------------------------------------
+
+Zadanie 10 (iterators)
+Napisz własny iterator Odliczanie(n), który zwraca kolejne liczby od n do 0.
+Przetestuj jego działanie w pętli for.
